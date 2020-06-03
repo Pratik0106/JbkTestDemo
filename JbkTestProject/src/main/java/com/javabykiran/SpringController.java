@@ -13,7 +13,7 @@ public class SpringController {
 	public ArrayList<Question> getquestion()
 	{
 		ArrayList<Question> arraylistque=new ArrayList<>();
-		
+		//object of question1
 		Question que=new Question();
 		que.setQuestion("What are the features of java features?");
 		que.setQueid(1);
