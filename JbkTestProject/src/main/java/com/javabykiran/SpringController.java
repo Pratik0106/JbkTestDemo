@@ -42,9 +42,15 @@ public class SpringController {
 		que1.setOption2("4");
 		que1.setCorrectanswer("4");
 
-		
+		Question que2=new Question();
+		que2.setQuestion("How many type of inheritance?");
+		que2.setQueid(1);
+		que2.setOption1("5");
+		que2.setOption2("4");
+		que2.setCorrectanswer("4");
 		arraylistque.add(que);
 		arraylistque.add(que1);
+		arraylistque.add(que2);
 		return arraylistque;
 	}
 	
